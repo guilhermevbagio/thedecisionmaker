@@ -1,5 +1,9 @@
 <template>
-  <div class="h-full w-full flex justify-start items-start">
-    <div>THE DECISION MAKER</div>
+  <div class="h-screen w-screen flex flex-row">
+    <SideBar />
   </div>
 </template>
+
+<script setup lang="ts">
+import SideBar from './components/SideBar.vue'
+</script>
